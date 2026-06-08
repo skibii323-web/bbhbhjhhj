@@ -322,7 +322,7 @@ applyBtn.addEventListener('click', () => {
         // Меняем текст, чтобы пользователь с iPhone понял, что делать
         const textDesc = modalBox.querySelector('p');
         if (textDesc) {
-            textDesc.innerHTML = 'Нажмите «Скачать PNG».<br><strong style="color: #ffcc00; display: block; margin-top: 8px; font-size: 13px;">Если кнопка не работает (iPhone/VK) — просто зажмите картинку выше пальцем и выберите «Сохранить в Фото».</strong>';
+            textDesc.innerHTML = 'Нажмите «Скачать PNG».<br><strong style="color: #ffcc00; display: block; margin-top: 8px; font-size: 13px;">Если кнопка не работает (iPhone/Google chrome) — попробуйте зайти из другого браузера (Safari) или просто зажмите картинку выше пальцем и выберите «Сохранить в Фото».</strong>';
         }
 
         downloadModal.style.display = 'flex';
